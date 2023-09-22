@@ -17,6 +17,10 @@ public class RoomSwitch : MonoBehaviour
         {
             QuitGame();
         }
+        if (Input.GetKeyDown(KeyCode.Alpha9))
+        {
+            this.transform.position = new Vector3(0, 0, 0);
+        }
     }
 
     void QuitGame()
